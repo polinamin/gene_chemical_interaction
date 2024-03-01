@@ -139,7 +139,7 @@ google-cloud-language==2.13.2
 google-cloud-resource-manager==1.12.2
 google-cloud-storage==2.8.0
 google-cloud-translate==3.11.3
-google-colab @ file:///colabtools/dist/google-colab-1.0.0.tar.gz#sha256=79413bd74ed145fc11c0c69b224d573d4c33c6032a0fcc3e5dc31da4b408078a
+#google-colab @ file:///colabtools/dist/google-colab-1.0.0.tar.gz#sha256=79413bd74ed145fc11c0c69b224d573d4c33c6032a0fcc3e5dc31da4b408078a
 google-crc32c==1.5.0
 google-generativeai==0.3.2
 google-pasta==0.2.0
@@ -191,7 +191,7 @@ ipywidgets==7.7.1
 isoduration==20.11.0
 itsdangerous==2.1.2
 jax==0.4.23
-jaxlib @ https://storage.googleapis.com/jax-releases/cuda12/jaxlib-0.4.23+cuda12.cudnn89-cp310-cp310-manylinux2014_x86_64.whl#sha256=8e42000672599e7ec0ea7f551acfcc95dcdd0e22b05a1d1f12f97b56a9fce4a8
+#jaxlib @ https://storage.googleapis.com/jax-releases/cuda12/jaxlib-0.4.23+cuda12.cudnn89-cp310-cp310-manylinux2014_x86_64.whl#sha256=8e42000672599e7ec0ea7f551acfcc95dcdd0e22b05a1d1f12f97b56a9fce4a8
 jedi==0.19.1
 jeepney==0.7.1
 jieba==0.42.1
@@ -353,7 +353,7 @@ pyshp==2.3.1
 PySocks==1.7.1
 pytensor==2.14.2
 pytest==7.4.4
-python-apt @ file:///backend-container/containers/python_apt-0.0.0-cp310-cp310-linux_x86_64.whl#sha256=b209c7165d6061963abe611492f8c91c3bcef4b7a6600f966bab58900c63fefa
+#python-apt @ file:///backend-container/containers/python_apt-0.0.0-cp310-cp310-linux_x86_64.whl#sha256=b209c7165d6061963abe611492f8c91c3bcef4b7a6600f966bab58900c63fefa
 python-box==7.1.1
 python-dateutil==2.8.2
 python-json-logger==2.0.7
@@ -446,12 +446,12 @@ tokenizers==0.15.2
 toml==0.10.2
 tomli==2.0.1
 toolz==0.12.1
-torch @ https://download.pytorch.org/whl/cu121/torch-2.1.0%2Bcu121-cp310-cp310-linux_x86_64.whl#sha256=0d4e8c52a1fcf5ed6cfc256d9a370fcf4360958fc79d0b08a51d55e70914df46
-torchaudio @ https://download.pytorch.org/whl/cu121/torchaudio-2.1.0%2Bcu121-cp310-cp310-linux_x86_64.whl#sha256=676bda4042734eda99bc59b2d7f761f345d3cde0cad492ad34e3aefde688c6d8
-torchdata==0.7.0
-torchsummary==1.5.1
-torchtext==0.16.0
-torchvision @ https://download.pytorch.org/whl/cu121/torchvision-0.16.0%2Bcu121-cp310-cp310-linux_x86_64.whl#sha256=e76e78d0ad43636c9884b3084ffaea8a8b61f21129fbfa456a5fe734f0affea9
+#torch @ https://download.pytorch.org/whl/cu121/torch-2.1.0%2Bcu121-cp310-cp310-linux_x86_64.whl#sha256=0d4e8c52a1fcf5ed6cfc256d9a370fcf4360958fc79d0b08a51d55e70914df46
+#torchaudio @ https://download.pytorch.org/whl/cu121/torchaudio-2.1.0%2Bcu121-cp310-cp310-linux_x86_64.whl#sha256=676bda4042734eda99bc59b2d7f761f345d3cde0cad492ad34e3aefde688c6d8
+#torchdata==0.7.0
+#torchsummary==1.5.1
+#torchtext==0.16.0
+#torchvision @ https://download.pytorch.org/whl/cu121/torchvision-0.16.0%2Bcu121-cp310-cp310-linux_x86_64.whl#sha256=e76e78d0ad43636c9884b3084ffaea8a8b61f21129fbfa456a5fe734f0affea9
 tornado==6.3.2
 tqdm==4.66.2
 traitlets==5.7.1
